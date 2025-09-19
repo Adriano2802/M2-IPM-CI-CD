@@ -60,8 +60,8 @@ db.messages.find()
 ## Etape 4
 #### Problème identifié = Exposition et environnement
 
-#### original =  EXPOSE 3000 4000 5000
+    original =  EXPOSE 3000 4000 5000
     ENV NODE_ENV=development
 
-#### actuel =    EXPOSE 3000
+    actuel =    EXPOSE 3000
     ENV NODE_ENV=production
